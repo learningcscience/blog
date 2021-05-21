@@ -1,0 +1,527 @@
+
+<!doctype html>
+<html>
+
+
+<head>
+<title>  Upendra Shahai | Home </title>
+
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel = "icon" href ="pic/logo.png"type = "image/x-icon">
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+
+<style>
+*{
+box-sizing: border-box;
+margin: 0;
+font-family: 'Fira Sans', sans-serif;
+}
+.nav a{
+text-decoration: none;
+padding: 20px;
+font-size: 20px;
+color: white;
+font-family: 'Barlow', sans-serif;
+}
+
+.nav{
+background:#059862 ;
+padding: 16px;
+position: fixed;
+top:0;
+z-index:1;
+left: 0;
+width: 100%;
+box-shadow: 4px 17px 20px rgb(158 158 158 / 34%);
+}
+
+
+.photo{
+display: none;
+}
+
+
+
+h1.blog {
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    font-size: 3.6em;
+color: white;
+padding: 10px 30px;
+background-color:#07e292;
+
+}
+
+
+button{
+border: none;
+outline: none;
+background:#059862 ;
+font-size: 20px;
+color: white;
+outline: none;
+padding: 12px 50px;
+cursor: pointer;
+}
+button:hover{
+transition: .1s;
+background-color:#07e292;
+}
+
+input.col-7 {
+    width: 40%;
+    padding: 12px;
+    border: none;
+outline: none;
+margin-top: 12px;
+}
+input.col-7 :focus{
+border:none;
+}
+
+[class*="col"]{
+
+float:left;
+padding: 15px;
+}
+
+.row::after {
+ content: "";
+   clear: both;
+   display: table;
+}
+
+.text{
+font-size: 25px;
+}
+#ninja{
+display: none;
+font-size: 25px;
+}
+
+h2{
+font-size: 2em;
+}
+form input{
+width: 90%;
+padding: 12px;
+margin: 15px;
+outline: none;
+text-align: center;
+font-size: 20px;
+background-color:#9e9e9e45;
+border: none;
+
+}
+input:focus{
+background: white;
+border: 1px solid black;
+}
+
+textarea{
+width: 90%;
+outline: none;
+background-color:#9e9e9e45;
+border:none;
+}
+textarea:focus{
+background-color:white;
+border: 1px solid black;
+}
+::placeholder{
+text-align: center;
+font-size: 18px;
+}
+label{
+font-size: 20px;
+}
+button.find {
+    background: #07e292;
+    padding: 8px 30px;
+margin-top: 12px;
+}
+input[type="submit"]{
+    background: #059862;
+    color: white;
+font-size:20px;
+    outline: none;
+    border: none;
+width: 90%;
+padding: 10px;
+}
+input[type="submit"]:hover{
+background: #07e292;
+}
+
+.plan{
+background-image: url("pic/plan.png");
+background-size: cover;
+background-position: center;
+height: 100%;
+padding: 5%;
+width: 100%;
+}
+p.planning{
+font-size: 25px;
+color: white;
+}
+.footer{
+background:#059862 ;
+text-align: center;
+}
+h3{
+color: white;
+font-size: 30px;
+}
+h4{
+font-size: 3em;
+}
+.fa{
+color: white;
+}
+.row{
+text-align: center;
+}
+.footer a{
+color: white;
+text-decoration: none;
+font-size: 20px;
+
+}
+p.ftext{
+color: white;
+font-size: 20px;
+}
+i.fa.fa-reddit {
+    font-size: 25px;
+    background: #cccccc63;
+    padding: 10px;
+margin:20px 10px;
+    border-radius: 50%;
+}
+
+i.fa.fa-vimeo {
+    font-size: 25px;
+    background: #cccccc63;
+    padding: 10px;
+margin:20px 10px;
+    border-radius: 50%;
+}
+
+i.fa.fa-rss {
+    font-size: 25px;
+    background: #cccccc63;
+    padding: 10px;
+margin:20px 10px;
+    border-radius: 50%;
+}
+
+i.fa.fa-skype {
+    font-size: 25px;
+    background: #cccccc63;
+    padding: 10px;
+margin:20px 10px;
+    border-radius: 50%;
+}
+i.fa.fa-user {
+    position: absolute;
+    top: 22%;
+    color: white;
+    z-index: 1;
+    font-size: 25px;
+    background: #cccccc36;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 5px 8px;
+    right: 2%;
+cursor: pointer;
+}
+h1.head{
+font-size: 2.3em;
+color: white;
+}
+.more{
+border-radius: 30%;
+padding: 10px 20px;
+}
+p.foot {
+    background-color: #07e292;
+    color: white;
+    padding: 3%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h6{
+font-size: 30px;
+text-align: center;
+font-weight: bold;
+}
+
+.place{
+text-align:center;
+}
+.place img:hover{
+opacity: 0.4;
+}
+h2{
+font-size: 3em;
+}
+.col-1 {width: 8.33%;}
+.col-2 { width: 16.66%; }
+.col-3 { width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%; }
+.col-9 {width: 75%;}
+.col-10 { width: 83.33%; }
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+@media only screen and (max-width: 450px){
+
+
+[class*="col"]{
+
+width: 100%;
+
+}
+
+img{
+max-width: 100%;
+height: auto;
+}
+h1.head{
+display: block;
+float: left;
+font-size: 30px;
+}
+
+}
+
+@media screen and (max-width: 700px){
+
+
+.bala{
+max-width: 100%;
+margin: 0;
+}
+
+h2.post{
+display: none;
+}
+.photo{
+display: block;
+max-width: 100%;
+}
+.gun{
+display: none;
+}
+
+
+
+h1.blog{
+position: absolute;
+top: 30#;
+right: 15%;
+
+}
+input.col-7{
+width: 100%;
+}
+button.find{
+width:100%;
+}
+
+i.fa.fa-user {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+
+
+<div class="nav" id="navigation ">
+<h1 class="head col-3"> Upendra Shahi </h1>
+
+<input type="search" placeholder="What are you looking for.."name="search" class="col-7"><button class="find"> Find </button>
+
+<a href="Account.html"><i class="fa fa-user" title="create caaount to subscribe" class="col-2"></i></a>
+
+</div>
+
+
+<div class="photo">
+<img src="pic/4.jpg" class="bala">
+
+</div>
+<br><br>
+<h1 class="blog"> My Blog </h1>
+<img src="pic/2.png" width="100%" class="gun">
+
+
+<br>
+
+
+
+      <div class="row" id="about">
+<div class="about">
+<div class="col-4">
+<h2> About Me </h2><br><img src="pic/1.jpg" width= "400">
+</div>
+
+<div class="col-8">
+<p class="text"> It's me upendra shahi. I am 19 year's old. I live in Kathmandu Nepal.<br>
+          My permanent address is Kalikot Nepal. I am learning architecture <br>
+         engineering.In this lockdown i am going my village for some months.<br>
+         I passed my SEE exam from  Everest world school. I got good marks in<br>
+        my SEE examination. my college name is Baneshwor multiple campus. <br>
+        Thanks a lot for visiting my presonal website. </p><br>
+
+<p id="ninja"> I love to play video games like Free fire, pubg, call of duty etc. I also play,<br>
+       football, volleyball, tec. My best friend name is Santhes .<br> Support or follow me in different social medias guys.</p>
+<br>
+<button onclick="loader()"> Readmore</button>
+
+</div>
+</div>
+</div>
+</div>
+<br><br><br>
+
+<div class="row"id="contact">
+<div class="contact col-5" >
+<h2> Contact me</h2><br><img src="pic/phone.jpg" width="350">
+</div>
+
+<div class="col-7">
+<form>
+<strong><label> Username </label><br></strong>
+<input type="text" placeholder="username" name="name" required><br>
+
+<strong><label> Email </label><br></strong>
+<input type="email" placeholder="User@gmailcom" name="email" requires><br>
+
+<strong><label> Message</label><br><br></strong>
+<textarea rows="6" cols="40" placeholder="Message.."></textarea>
+</form> <br>
+
+ <input type="submit" value="Sumbit">
+
+</div>
+
+
+
+</div><br>
+
+
+
+<div class="row"id="plan">
+   <div class="plan col-12">
+
+<h2> My plans </h2>
+<br><br>
+<p class="planning">Nowadays, i am learning architecture  engneering in kathmandu.<br>
+  When i complete my 3years course i will flight to America(U.S.A).<br>
+  Then i will search for jobs. After 5 years i return to Nepal & starts<br>
+  working in my own company . </p><br><button> More .. </button>
+   </div>
+
+</div><br>
+
+<img src="pic/voice.jpg" width="100%">
+<br><br><br>
+
+<div class="row">
+<div class="place">
+<div class="fir">
+<h2> Places i visited </h2>
+<img src="pic/nepal.jpg"width="500" class="col-4">
+<img src="pic/pokhara.jpg"width="500" class="col-4">
+<img src="pic/car.jpg"width="500" class="col-4">
+</div><br>
+<div class="sec">
+
+<img src="pic/forest.jpg"width="500" height="320"class="col-4">
+<img src="pic/fall.jpg"width="500" height="310"class="col-4">
+<img src="pic/mugu.jpg"width="500"height="310" class="col-4">
+
+</div>
+</div>
+</div>
+
+
+<div class="row">
+
+<div class="sec">
+
+
+</div>
+
+</div>
+<div class="footer col-12">
+<div class="col-4">
+<h3> Useful links </h3><br>
+<a href="#"> Home </a><br><br>
+
+<a href="#about"> About Me</a><br><br>
+
+<a href="#contact"> Contact Me</a><br><br>
+
+<a href="#plan"> Future Plans </a>
+
+</div>
+<div class="col-4">
+<h3> Connect in</h3><br><br><br><br>
+<i class="fa fa-reddit"></i>
+<i class="fa fa-vimeo"></i>
+<i class="fa fa-rss"></i>
+<i class="fa fa-skype"></i>
+
+
+</div>
+<div class="col-4">
+<h3> About us </h3><br>
+<p class="ftext"> We are the team of nnsc (web developer).<br>
+           We design responsive professional website.<br>
+           Similarly today we Created this website the<br>
+           blog of upendra shahi </p>
+</div>
+
+
+</div>
+
+<p class="foot">&copy; All rights reserved 2021 Upendra shahi</p>
+
+
+<script>
+
+
+function loader() {
+  document.getElementById("ninja").style.display = "block";
+}
+</script>
+</body>
+
+</html>
